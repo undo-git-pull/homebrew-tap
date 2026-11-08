@@ -1,9 +1,9 @@
 class Raylauncher < Formula
   desc "Keyboard launcher for macOS: apps, commands, system actions, and a calculator"
   homepage "https://github.com/undo-git-pull/raylauncher"
-  url "https://github.com/undo-git-pull/raylauncher/releases/download/v0.1.3/raylauncher-macos-universal.tar.gz"
-  version "0.1.3"
-  sha256 "04b89b26f1cfd87e838ae2eb22633ee5acb758063bfd23a44d4cac4aba027f03"
+  url "https://github.com/undo-git-pull/raylauncher/releases/download/v0.1.4/raylauncher-macos-universal.tar.gz"
+  version "0.1.4"
+  sha256 "3e9af06afa40547fb14ccc1de373d85bad53c382ee1dd556a5c62b0b37e897c7"
   license "MIT"
 
   depends_on :macos
