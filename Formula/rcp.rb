@@ -1,22 +1,22 @@
 class Rcp < Formula
   desc "Two-pane TUI file copier (local and SSH)"
   homepage "https://github.com/undo-git-pull/rcp"
-  version "0.1.0"
+  version "0.1.1"
   license "MIT"
 
   on_macos do
-    url "https://github.com/undo-git-pull/rcp/releases/download/v0.1.0/rcp-macos-universal.tar.gz"
-    sha256 "9f401a99fbecb5fd7b06b701fd4ef532bd611151be632fff1ea7a3b1a0c0ec31"
+    url "https://github.com/undo-git-pull/rcp/releases/download/v0.1.1/rcp-macos-universal.tar.gz"
+    sha256 "6229f35c88a33baa1b89054f9b512fb700320bf2e1e81d279abdb137cafd5204"
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/undo-git-pull/rcp/releases/download/v0.1.0/rcp-linux-x86_64.tar.gz"
-      sha256 "653e4112c31387407adbb5f39fbee3787fbe59e4fd35acd110371152afacde60"
+      url "https://github.com/undo-git-pull/rcp/releases/download/v0.1.1/rcp-linux-x86_64.tar.gz"
+      sha256 "9d7d3f45d272a9294fb10e17ae9691df5b64993343eef3f9b4d3317975c4752e"
     end
     on_arm do
-      url "https://github.com/undo-git-pull/rcp/releases/download/v0.1.0/rcp-linux-aarch64.tar.gz"
-      sha256 "3fc3bec480cfa784b4714f579a37e8ed6b8ded160dae3f0229b2f7459611bb8c"
+      url "https://github.com/undo-git-pull/rcp/releases/download/v0.1.1/rcp-linux-aarch64.tar.gz"
+      sha256 "f4cb8ac19a6d301a7623519623587ddf63bb212bcfbbb70feb3fc76c14c37d84"
     end
   end
 
